@@ -40,6 +40,9 @@
     border: none;
     background: rgb(0, 106, 80);
   }
+  .Button-primary::hover {
+    background: rgb(0, 106, 80);
+  }
 /*Nav styles*/
 .top-bar { 
     background: rgb(245, 245, 245);
@@ -78,7 +81,6 @@
     margin: 160px 160px 0px 80px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-
 }
 .banner-content {
     max-width: 622px;
@@ -305,3 +307,108 @@
     font-size: 18px;
     margin-bottom: 1.5rem;
 }
+
+/*Challenges*/
+/*Newsletter*/
+.subscribe-newsletter {
+    display: flex;
+    justify-content: space-between;
+    gap: 80;
+    padding: 100px 80px;
+    margin: 160px 160px 50px 160px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214)
+}
+.subscribe-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.subscribe-description{
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    text-align: center;
+}
+.no-spam {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 15px;
+    text-align: center;
+    background: rgb(198, 228, 214)
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-form-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px 0px 0px 8px;
+    flex: 1;
+    max-width: 400px;
+    margin: 0px 0px;
+}
+
+.newsletter-form-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #0b3d0b;
+    color: #fff;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0px 0px;
+}
+.newsletter-form-button:hover {
+    background-color: #096308;
+}
+/*Quote*/
+.quote-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: white;
+  }
+
+  .quote-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #888;
+  }
+
+  .quote-author {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    rgba(14, 14, 14, 0.8)
+  }
+
+  .quote-title {
+    font-size: 14px;
+    color: #888;
+  }
+
+  .header {
+    background-position: top left;
+    background-size: cover;
+}
+    
